@@ -1,67 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FlameBorn FC | Home</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <script defer src="js/script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Team</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
-<body>
-
-  <!-- 🔥 Intro Animation -->
-  <div id="intro-animation">
-    <img src="assets/images/logo.png" alt="FlameBorn FC Logo" />
-    <h1>FlameBorn FC</h1>
-  </div>
-
-  <!-- 🔗 Navigation -->
-  <header>
-    <nav class="navbar">
-      <div class="logo">
-        <img src="assets/images/logo.png" alt="FlameBorn FC Logo" />
-        <span>FlameBorn FC</span>
-      </div>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="team.html">Team</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="news.html">News</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- 💥 Hero Section -->
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Welcome to FlameBorn FC</h1>
-      <p>Born to ignite the pitch.</p>
-      <a href="https://example.com/games" target="_blank" class="play-btn">🎮 Play Free Games – Click Here</a>
+<body onload="showIntro()">
+    <div id="intro" class="intro-animation">
+        <h1>Welcome to Our Football Team!</h1>
     </div>
-  </section>
-
-  <!-- ✨ Highlights -->
-  <section class="highlights">
-    <div class="highlight-box">
-      <h2>🔥 Latest Match</h2>
-      <p>FlameBorn FC 3 - 1 Thunder Blazers</p>
-    </div>
-    <div class="highlight-box">
-      <h2>💥 Upcoming Fixture</h2>
-      <p>Vs Lightning Wolves - Aug 5</p>
-    </div>
-    <div class="highlight-box">
-      <h2>🎖️ Star Player</h2>
-      <p>Leo Blaze – 7 Goals This Season</p>
-    </div>
-  </section>
-
-  <!-- 📞 Footer -->
-  <footer>
-    <p>&copy; 2025 FlameBorn FC. All rights reserved.</p>
-  </footer>
-
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#team">Our Team</a></li>
+                <li><a href="#news">Latest News</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#games" id="play-games">Play Free Games - Click Here</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to our football team! We are dedicated to excellence on and off the field.</p>
+        </section>
+        <section id="team">
+            <h2>Our Team</h2>
+            <p>Meet our talented players and coaching staff.</p>
+        </section>
+        <section id="news">
+            <h2>Latest News</h2>
+            <p>Stay updated with our latest matches and events.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us for any inquiries.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Football Team. All rights reserved.</p>
+    </footer>
 </body>
 </html>
